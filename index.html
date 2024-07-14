@@ -22,17 +22,33 @@
   </head>
   <body>
     <div class="area">
-      <div id="toggle" class="all_container">
-        <!-- <span>Click me to open!</span> -->
-        <div class="container">
+      <div class="all_container">
+        <div id="toggle" class="container">
+          <div class="stamp">
+            <div class="stamp-inner">
+              <span class="stamp-text-open">Click to open</span>
+              <span class="stamp-text-close">Click to close</span>
+            </div>
+          </div>
           <div class="envelope"></div>
           <div class="flip"></div>
           <div class="letter">
-            <span class="text">I love you &#10084;&#65039;</span>
+            <span class="text"
+              >I love you
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  fill="#cc3d57"
+                />
+              </svg>
+            </span>
           </div>
         </div>
-
-        <!-- <hr /> -->
       </div>
       <div class="hearts">
         <div class="heartOne heart-item">
@@ -135,6 +151,14 @@
     </div>
 
     <div class="loop-wrapper">
+      <div id="clouds">
+        <div class="cloud x1"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+      </div>
+
       <div class="bird-container">
         <div class="bird-wrapper">
           <div class="left-wing">
@@ -162,7 +186,6 @@
         </div>
       </div>
       <div class="mountain"></div>
-      <!-- <div class="hill"></div> -->
 
       <div class="tree">
         <img src="images/triangle.png" />
@@ -180,362 +203,6 @@
       </div>
       <div class="wheels"></div>
     </div>
-    <!-- <div class="section-center">
-      <div class="section-up">
-        <div class="sun">
-          <span></span>
-        </div>
-        <div class="cloud-left">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="cloud-middle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="cloud-right">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="bird-wrapper">
-          <div class="left-wing">
-            <span></span>
-          </div>
-          <div class="right-wing">
-            <span></span>
-          </div>
-        </div>
-        <div class="bird-wrapper snd">
-          <div class="left-wing">
-            <span></span>
-          </div>
-          <div class="right-wing">
-            <span></span>
-          </div>
-        </div>
-        <div class="bird-wrapper trd">
-          <div class="left-wing">
-            <span></span>
-          </div>
-          <div class="right-wing">
-            <span></span>
-          </div>
-        </div>
-        <div class="building-left">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="building-right">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span><span></span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="left-tree">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="right-tree">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="hill">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="hill snd">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="hill trd">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="hill frt">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      <div class="section-down">
-        <div class="ship-wrapper">
-          <div class="ship">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="water-big-wrapper">
-          <div class="water-big-wrap">
-            <div class="water-big">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water-big snd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water-big trd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="water-lines-wrapper">
-          <div class="water-lines">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="water-lines-wrapper right">
-          <div class="water-lines">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="fish-wrapper">
-          <div class="fish-wrap">
-            <div class="fish">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="fish-wrapper right">
-          <div class="fish-wrap">
-            <div class="fish">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="water-wrapper top">
-          <div class="water-wrap">
-            <div class="water">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water snd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water trd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="water-wrapper">
-          <div class="water-wrap">
-            <div class="water">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water snd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water trd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="water-wrapper top right">
-          <div class="water-wrap">
-            <div class="water">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water snd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water trd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div class="water-wrapper right">
-          <div class="water-wrap">
-            <div class="water">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water snd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="water trd">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <script src="script.js"></script>
   </body>
